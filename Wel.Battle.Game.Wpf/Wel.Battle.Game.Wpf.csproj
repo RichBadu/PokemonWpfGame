@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pictures\background\tablet.png" />
+    <None Remove="pictures\Blastoise.png" />
+    <None Remove="Pictures\buttons\Battle.png" />
+    <None Remove="Pictures\buttons\pokeball.png" />
+    <None Remove="Pictures\buttons\Potion.png" />
+    <None Remove="Pictures\buttons\Swap.png" />
+    <None Remove="pictures\Charizard.png" />
+    <None Remove="pictures\Electrabuzz.png" />
+    <None Remove="pictures\Flareon.png" />
+    <None Remove="pictures\Jolteon.png" />
+    <None Remove="pictures\Magmar.png" />
+    <None Remove="pictures\Pikachu.png" />
+    <None Remove="pictures\Poliwhirl.png" />
+    <None Remove="pictures\Scyther.png" />
+    <None Remove="pictures\Seadra.png" />
+    <None Remove="pictures\types\electric.png" />
+    <None Remove="pictures\types\fire.png" />
+    <None Remove="pictures\types\grass.png" />
+    <None Remove="pictures\types\water.png" />
+    <None Remove="pictures\Venusaur.png" />
+    <None Remove="pictures\Weepinbell.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pictures\background\tablet.png" />
+    <Resource Include="pictures\blastoise.png" />
+    <Resource Include="Pictures\buttons\Battle.png" />
+    <Resource Include="Pictures\buttons\pokeball.png" />
+    <Resource Include="Pictures\buttons\Potion.png" />
+    <Resource Include="Pictures\buttons\Swap.png" />
+    <Resource Include="pictures\charizard.png" />
+    <Resource Include="pictures\electrabuzz.png" />
+    <Resource Include="pictures\flareon.png" />
+    <Resource Include="pictures\jolteon.png" />
+    <Resource Include="pictures\magmar.png" />
+    <Resource Include="pictures\pikachu.png" />
+    <Resource Include="pictures\poliwhirl.png" />
+    <Resource Include="pictures\scyther.png" />
+    <Resource Include="pictures\seadra.png" />
+    <Resource Include="pictures\types\electric.png" />
+    <Resource Include="pictures\types\fire.png" />
+    <Resource Include="pictures\types\grass.png" />
+    <Resource Include="pictures\types\water.png" />
+    <Resource Include="pictures\venusaur.png" />
+    <Resource Include="pictures\weepinbell.png" />
+  </ItemGroup>
+
+</Project>
